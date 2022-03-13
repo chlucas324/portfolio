@@ -1,0 +1,116 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+header {
+    background-color: #F433AB ;    
+}
+
+header h1 {
+    display: inline-block;
+    font-weight: bold;
+    font-size: 50px;
+    margin: 0; 
+    padding-top: 15px; 
+}
+
+header h1 a {
+    text-decoration: none;
+    color: #F433AB; 
+}
+
+header nav {
+    padding-top: 25px;
+    margin-right: 50px;
+    float: right;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+header nav ul {
+    list-style: none;    
+  }
+
+  header nav ul li {
+      display: inline-block;
+      margin-left: 5px;
+      
+  }
+
+  header nav ul li a {
+    font-weight: bold;
+    color: #102542; 
+  }
+
+  .name {
+      background-color: #102542;
+      padding: 10px 20px 10px 80px;
+      margin: 7px;
+  }
+
+section {
+    padding: 60px;
+}
+
+  .hero {
+    height: 250px;
+    width: 100%;
+    background-image: url("../images/Hero.jpg");
+    background-size: cover;     
+  }
+
+  .subtitle {
+    padding: 130px 0 0 0; 
+    float: right;
+    margin-left: 100px
+  }
+
+  .subtitle-developer {
+    color: #F433AB;
+    font-size: 35px;
+    background-color: #102542; 
+    
+  }
+
+
+.about-me h2{
+    float: left;
+    padding: 50px 20px;
+    font-size: 40px;
+}  
+
+.work h2 {
+    font-size: 40px;
+    padding: 50px 20px;
+    float: left;
+}
+ 
+.surf-report, .LED-wall, .calculator, .pastel-puzzles, .run-buddy {
+    float: right;
+}
+
+.surf-report-img {
+    float: right;
+    width: 800px;
+}
+
+.contact-me h2 {
+    font-size: 40px;
+    padding: 50px 20px;
+    float: left;  
+}
+
+.phone, .email, .github{
+    display: inline-block;
+    padding-top: 15px;
+    margin-right: 30px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
