@@ -132,7 +132,12 @@ section {
     align-content: flex-end;
     margin-left: 200px;
     margin-right: 200px;
+    opacity: 100%;
      
+}
+
+.projects img:hover {
+    opacity: 30%;
 }
 
 .work h2 {
