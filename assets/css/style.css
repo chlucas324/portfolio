@@ -34,7 +34,7 @@ header nav {
 }
 
 header nav ul {
-    list-style: none;    
+    list-style: none;  
   }
 
   header nav ul li {
@@ -46,6 +46,7 @@ header nav ul {
   header nav ul li a {
     font-weight: bold;
     color: #102542; 
+    
   }
 
   .name {
@@ -112,24 +113,33 @@ section {
     
 }
 .work-projects {
-    display: flex;   
+    display: flex; 
+    /* margin-left: 100px;     */
+    align-content: flex-end;
+}
+
+.work-projects h3 {
+    margin-left: 100px;
 }
 
 .work-projects a {
-   color:  #102542;
+   padding-top: 30px;
+   color:  #102542;   
 }
 
 .projects img {
     width: 50%;
-   align-content: flex-end;
+    align-content: flex-end;
+    margin-left: 200px;
+    margin-right: 200px;
      
 }
 
 .work h2 {
     font-size: 40px;
     padding: 50px 20px;
-    float: left;
     inline-size: 120px; 
+    margin-left: 40px;
 }
 
 footer { 
@@ -139,9 +149,10 @@ footer {
 
 .contact-me h2 {
     font-size: 40px;
-    padding-top: 40px; 
+    padding: 40px 0 50px 0; 
     float: left; 
-    margin-left: 50px; 
+    margin-left: 100px; 
+    inline-size: 100px; 
 }
 
 .contact-info {
@@ -150,6 +161,84 @@ footer {
     margin-right: 50px;
     font-size: 20px;
     text-align: center;
-    justify-content: space-evenly;
-   
+    justify-content: space-evenly;  
+    text-decoration: underline;
+}
+
+.contact-info a {
+    color: #102542;
+    font-size: 1.17em;
+    font-weight: bold;
+}
+
+/* MEDIA QUERY FOR TABLETS AND SMALLER */
+@media screen and (max-width: 768px) {
+    header {
+        align-items: center;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    } 
+
+    footer {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center; 
+    }
+
+    .contact-me {
+        margin: 0;
+        inline-size: 1000px;
+       
+    }
+    .contact-info {
+        flex: 1;
+        flex-wrap: wrap;
+        justify-content: space-evenly; 
+    }
+}  
+/* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
+@media screen and (max-width: 575px) {    
+    header {
+        align-items: center;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .hero {
+       flex: 1 100%;
+       text-align: center;   
+    }
+
+    .about-me h2 {
+        display: inline-flex;
+        flex: 1;
+        text-align: center;  
+    }
+    .about-me p {
+        flex: 2;
+        justify-content: space-evenly; 
+    }
+
+    .projects img {
+        width: 100%;
+    }
+
+    footer {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center; 
+    }
+
+    .contact-me {
+        margin: 0;
+        inline-size: 500px;
+       
+    }
+    .contact-info {
+        flex: 1;
+        flex-wrap: wrap;
+        justify-content: space-evenly; 
+    }
 }
