@@ -103,31 +103,53 @@ section {
     padding: 30px;  
     flex-direction: row;
     flex-wrap: wrap;
+    color: #102542;
 }
  
 .projects {
-    display: flex;
-    flex-wrap: wrap;
     flex: 50%;
-    padding: 10px;
+    padding: 20px;
     
+}
+.work-projects {
+    display: flex;   
+}
+
+.work-projects a {
+   color:  #102542;
 }
 
 .projects img {
-    width: 100%;
-    min-width: 800px;
-    min-height: 600px;  
+    width: 50%;
+   align-content: flex-end;
      
 }
 
-.surf-buddy {
-    flex: 1 100%;
+.work h2 {
+    font-size: 40px;
+    padding: 50px 20px;
+    float: left;
+    inline-size: 120px; 
 }
 
-.LED-wall {
-    flex: 1; 
+footer { 
+    color: #102542;
+    
 }
 
-.calculator {
-    flex: 2;
+.contact-me h2 {
+    font-size: 40px;
+    padding-top: 40px; 
+    float: left; 
+    margin-left: 50px; 
+}
+
+.contact-info {
+    display: flex;
+    padding: 50px;
+    margin-right: 50px;
+    font-size: 20px;
+    text-align: center;
+    justify-content: space-evenly;
+   
 }
