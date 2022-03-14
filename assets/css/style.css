@@ -39,8 +39,7 @@ header nav ul {
 
   header nav ul li {
       display: inline-block;
-      margin-left: 5px;
-      
+      margin-left: 5px;     
   }
 
   header nav ul li a {
@@ -132,8 +131,7 @@ section {
     align-content: flex-end;
     margin-left: 200px;
     margin-right: 200px;
-    opacity: 100%;
-     
+    opacity: 100%;    
 }
 
 .projects img:hover {
@@ -148,8 +146,7 @@ section {
 }
 
 footer { 
-    color: #102542;
-    
+    color: #102542;    
 }
 
 .contact-me h2 {
@@ -193,9 +190,9 @@ footer {
 
     .contact-me {
         margin: 0;
-        inline-size: 1000px;
-       
+        inline-size: 1000px;  
     }
+
     .contact-info {
         flex: 1;
         flex-wrap: wrap;
@@ -221,6 +218,7 @@ footer {
         flex: 1;
         text-align: center;  
     }
+
     .about-me p {
         flex: 2;
         justify-content: space-evenly; 
@@ -238,9 +236,9 @@ footer {
 
     .contact-me {
         margin: 0;
-        inline-size: 500px;
-       
+        inline-size: 500px;  
     }
+
     .contact-info {
         flex: 1;
         flex-wrap: wrap;
